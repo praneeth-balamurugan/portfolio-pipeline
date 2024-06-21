@@ -73,3 +73,4 @@ if __name__ == "__main__":
     upload_files(local_directory, bucket_name)
     print("Website hosted successfully!")
     print(f"Visit http://{bucket_name}.s3-website-us-east-1.amazonaws.com")
+    print("object link https://bp-portfolio.s3.amazonaws.com/index.html")
