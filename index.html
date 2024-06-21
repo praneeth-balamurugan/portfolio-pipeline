@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praneeth's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header, footer {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            padding: 2em 0;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        nav {
+            background-color: #34495e;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            display: inline-block;
+            padding: 1em;
+            color: #ecf0f1;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #2980b9;
+        }
+        section {
+            max-width: 1200px;
+            margin: 2em auto;
+            padding: 1em;
+        }
+        h2 {
+            font-size: 2em;
+            color: #2c3e50;
+            margin-bottom: 0.5em;
+        }
+        .card {
+            background-color: #fff;
+            padding: 2em;
+            margin-bottom: 1.5em;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            color: #fff;
+            background-color: #2980b9;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #1f6391;
+        }
+        footer p {
+            margin: 5px 0;
+        }
+        footer a {
+            color: #1abc9c;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Praneeth B</h1>
+        <p>Knack of building applications with front and back end operations</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#techstack">Tech Stack</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h2>About Me</h2>
+        <p>Hey, My name is Praneeth.</p>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="card education">
+            <h3>Bachelor of Technology in IT</h3>
+            <p>KONGU ENGINEERING COLLEGE (2021 - 2025)</p>
+            <p>Maintained a CGPA of 7.68 up to the completion of the fifth semester</p>
+        </div>
+        <div class="card education">
+            <h3>HSC</h3>
+            <p>PAAVAI VIDHYASHRAM CBSE SCHOOL (2020 - 2021)</p>
+            <p>Obtained a Higher Secondary Certification with a score of 89.4%</p>
+        </div>
+        <div class="card education">
+            <h3>SSLC</h3>
+            <p>PAAVAI VIDHYASHRAM CBSE SCHOOL (2019 - 2020)</p>
+            <p>Successfully completed Secondary School Leaving Certification with a score of 89.4%</p>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card project">
+            <h3>Chat Peck</h3>
+            <p>A real-time chatting application built using the Ionic framework. <a href="https://play.google.com/store" class="btn">Available on Play Store</a></p>
+            <a href="https://github.com" class="btn">Code Repository</a>
+        </div>
+        <div class="card project">
+            <h3>Recyclotron</h3>
+            <p>Built in MEAN stack. Helps people find unused foods near them and upload the details of unused foods. <a href="https://recyclotron.vercel.app" class="btn">Live Demo</a></p>
+            <a href="https://github.com" class="btn">Code Repository</a>
+        </div>
+        <div class="card project">
+            <h3>Tac Trix</h3>
+            <p>A tic-tac-toe built using Java. It's a multiplayer game where two players can play and view their scores. <a href="https://play.google.com/store" class="btn">Available on Play Store</a></p>
+            <a href="https://github.com" class="btn">Code Repository</a>
+        </div>
+        <div class="card project">
+            <h3>Todo</h3>
+            <p>An Angular ToDo app where you can enter your todo list and review it. You can also mark the completion. <a href="https://praneeth-todos.vercel.app" class="btn">Live Demo</a></p>
+            <a href="https://github.com" class="btn">Code Repository</a>
+        </div>
+    </section>
+    <section id="techstack">
+        <h2>Tech Stack</h2>
+        <p>Technologies I know:</p>
+        <ul>
+            <li>c</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Angular</li>
+        </ul>
+    </section>
+    <footer>
+        <p>Contact: <a href="mailto:bpraneeth.balu@gmail.com">bpraneeth.balu@gmail.com</a> | +91 93456 93282</p>
+        <p>&copy; 2024 Praneeth, All rights reserved.</p>
+    </footer>
+    <script>
+        document.querySelectorAll('nav ul li a').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
