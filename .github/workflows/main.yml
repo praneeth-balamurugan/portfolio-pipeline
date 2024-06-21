@@ -26,8 +26,8 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v2
         with:
-          aws-access-key-id: AKIAR5T2GA3NHPYON7WL
-          aws-secret-access-key: afzHDvOFOUQmD4DByN/l1lbRJ+OicwQygwlVwkdqY
+          aws-access-key-id:  AKIAR5T2GA3NFVJPCOHW # Replace with your AWS access key ID
+          aws-secret-access-key: Yj+mVs6efPxjZBjGiNP/VdHWA09k6tfVMumGEcTa  # Replace with your AWS secret access key
           aws-region: us-east-1
 
       - name: Sync S3 Bucket
@@ -37,4 +37,4 @@ jobs:
         run: python s3.py
          
       - name: Post deployment message
-        run: echo "Website hosted successfully! Visit http://bp-portfolio.s3-website-${{ secrets.AWS_REGION }}.amazonaws.com"
+        run: echo "Website hosted successfully! Visit http://bp-portfolio.s3-website-us-east-1.amazonaws.com"
