@@ -37,4 +37,4 @@ jobs:
         run: python s3.py
          
       - name: Post deployment message
-        run: echo "Website hosted successfully! Visit http://bp-portfolio.s3-website-us-east-1.amazonaws.com"
+        run: echo "deployed url https://bp-portfolio.s3.amazonaws.com/index.html"
