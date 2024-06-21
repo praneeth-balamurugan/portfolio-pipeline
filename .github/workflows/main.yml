@@ -22,7 +22,6 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install boto3
-          pip install mimetypes
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v2
