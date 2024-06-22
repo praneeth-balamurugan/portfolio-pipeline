@@ -4,7 +4,12 @@ import json
 import mimetypes
 
 # Configure AWS S3 client
-s3_client = boto3.client('s3', region_name='us-east-1')
+s3_client = boto3.client(
+    's3',
+    region_name='us-east-1',
+    aws_access_key_id='AKIAR5T2GA3NFVJPCOHW',
+    aws_secret_access_key='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'
+)
 
 # Define bucket name and local directory
 bucket_name = 'bp-portfolio'
